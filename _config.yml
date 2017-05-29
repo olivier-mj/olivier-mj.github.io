@@ -4,7 +4,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+
 
 # Setup
 locale: fr-FR
@@ -31,10 +31,12 @@ gems:
 - github-pages
 
 
+destination: public
+
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
 github:
-  repo:           https://github.com/oliviermj
+  repo:           https://github.com/olivier-mj/olivier-mj.github.io
