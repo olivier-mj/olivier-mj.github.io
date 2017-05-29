@@ -1,0 +1,7 @@
+---
+sitemap:
+  exclude: 'yes'
+---
+User-agent: *
+Disallow: /cdn-cgi/
+Sitemap: {{ site.url }}/sitemap.xml

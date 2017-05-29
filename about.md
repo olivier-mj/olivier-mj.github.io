@@ -1,30 +1,13 @@
 ---
 layout: page
-title: About
+title: A Propos
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Présentation :
+         
+Je me présent Olivier Marie-Joseph, 34 ans, Blogeur & Web Développeur front-end en apprentissage, Breton par adoption voila bientot 3 ans.  Dans le cadre d'une reconversion proféssionnel, je suis actuallement en formation dans  un BTS SIO (Services Informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) au sein du Greta Est Bretagne localisé à Saint-Malo.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+J'ai pour projet proféssionnel de devenir  devellopeur web front-end au terme de cette formation. Ce portfolio à été réaliser dans le cadre de l'épreuve E6, ici vous retrouverez: tous les projets que j'ai réaliser en cours de formation & en stage, ainsi que ma veille informationnelle.            
+             
+         
+Mes compétences :

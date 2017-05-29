@@ -1,0 +1,15 @@
+---
+layout: null
+---
+  Designer:     Olivier Marie-Joseph
+  Twitter:      @don_padre
+  Location:     Saint-Malo, Bretagne, France
+  Last updated: {{ site.time }}
+  Language:     French
+  Built with:   Jekyll {{ jekyll.version }} <http://jekyllrb.com>
+                Visual Studio Code <https://code.visualstudio.com>
+                Knacss <http://www.knacss.com>
+                Adobe Creative Suite <http://www.adobe.com>
+                Grunt <http://gruntjs.com>
+                NodeJs <http://www.nodejs.org>
+                Noun Project <https://thenounproject.com>
