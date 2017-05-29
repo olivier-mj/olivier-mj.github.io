@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -11,17 +11,18 @@ locale: fr-FR
 title: Olivier Marie-Joseph
 name: Olivier Marie-Joseph
 tagline:          'A Jekyll theme'
-description:      'Blogueur et développeur originaire de la Guadeloupe et   breton par adoption. Amateur de culture High-tech et de culture japonais..'
-url:              http://www.oliviermariejoseph.fr
+description:      'Blogueur et développeur originaire de la Guadeloupe et breton par adoption.'
+url:              http://www.oliviermariejoseph.fr/
 baseurl:          /
 
 author:
   name:           'Olivier Marie-Joseph'
-
-  social:
-    github: olivier-mj
-    linkedin: oliviermariejoseph 
-    skype: olivier-mj
+  email:          'contact@oliviermariejoseph.fr'
+  
+social:
+  github: olivier-mj
+  linkedin: oliviermariejoseph 
+  skype: olivier-mj
 
 
 gems:
