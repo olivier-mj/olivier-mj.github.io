@@ -1,0 +1,40 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+locale: fr-FR
+title: Olivier Marie-Joseph
+name: Olivier Marie-Joseph
+tagline:          'A Jekyll theme'
+description:      'Blogueur et développeur originaire de la Guadeloupe et   breton par adoption. Amateur de culture High-tech et de culture japonais..'
+url:              http://www.oliviermariejoseph.fr
+baseurl:          /
+
+author:
+  name:           'Olivier Marie-Joseph'
+
+  social:
+    github: olivier-mj
+    linkedin: oliviermariejoseph 
+    skype: olivier-mj
+
+
+gems:
+- jekyll-feed
+- jekyll-timeago
+- jekyll-paginate
+- github-pages
+
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/oliviermj
