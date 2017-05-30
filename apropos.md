@@ -20,8 +20,10 @@ ici vous retrouverez :
 * tous les projets que j'ai réalisés en cours de formation & en stage
 * ainsi que ma veille informationnelle
 * et quelques projets personnels.          
-             
-### Compétences
+         
+-----
+         
+### Mes compétences
 
 <div class="grid-3 has-gutter-l">
                     <div class="competences--devellopement">
@@ -146,6 +148,7 @@ ici vous retrouverez :
                     </div>
                 </div>
 
+-----
 
 <div class="download">
     <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><img src="{{ site.url }}/public/images/doc.svg" class="icon" width="70" alt="Curriculum vitae au format Word: 51ko"></a>
