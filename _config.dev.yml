@@ -1,12 +1,16 @@
-url: http://localhost:4000
+url: http://192.168.1.82:4000/
+baseurl: "/" # does not include hostname
+show_dir_listing: false
 modedev: true
 
 gem:
   - jekyll-admin
   - jekyll-livereload
 
-
-
-
+# Serving
+detach:  false
+port:    4000
+host:    192.168.1.82
+# Livereload config
 livereload: true     # You no longer need to include --livereload
 reload_port: 5678    # If you don't want to use the default port
