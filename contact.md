@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Me contacter
+title: Contact
 published: true
 ---
 <section class="contact">
@@ -32,7 +32,7 @@ Vous êtes à la recherche d'un web developpeur front-end pour un projet ? Je t�
                         <input class="full mbs" name="form-name" type="hidden" value="contactForm">
                         <input class="full mbs" name="nom" placeholder="Nom" required="" type="text">
                         <input class="full mbs" name="_replayto" placeholder="Email" type="email">
-                        <textarea class="full mbs " cols="50" name="message" rows="4"></textarea>
+                        <textarea class="full mbs " cols="50" name="message" rows="4"></textarea><br>
                         <input class="txtcenter" name="submit" type="submit" value="Envoyer le message">
                     </form>
                 </div>
