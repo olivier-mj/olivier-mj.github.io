@@ -3,6 +3,8 @@ baseurl: "/" # does not include hostname
 show_dir_listing: false
 modedev: true
 
+google_analytics: UA-XXXXXXXX-X
+
 gem:
   - jekyll-admin
   - jekyll-livereload

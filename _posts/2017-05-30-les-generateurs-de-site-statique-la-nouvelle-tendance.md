@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: post
 title: "Les  générateurs de site statique la nouvelle tendance !"
 categorie:
     -   Jekyll
     -   Web
-    -   front-end
+    -   Front-end
 cover: "https://cloud.githubusercontent.com/assets/28684330/26564798/d3109f78-44e5-11e7-8929-5093b146a4a4.jpg"
 date: 2017-05-30 04:26
-author: olivier-mj
+author: olivier
 comments: true
 
 

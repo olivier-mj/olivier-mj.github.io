@@ -25,9 +25,23 @@
   <script src="https://use.fontawesome.com/d164d0b195.js"></script>
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144x144.png">
-                                 <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/apple-touch-icon-144x144.png">
+                                 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "{{ site.author.name }}",
+            "url": "http://www.olivermariejoseph.fr",
+            "sameAs": ["http://instagram.com/{{ site.social.instagram }}",
+                "http://www.linkedin.com/in/{{ site.social.linkedin }}",
+                "https://www.viadeo.com/p/{{ site.social.viadeo }}"
+                "http://plus.google.com/+{{ site.social.googleplus }}",
+                "http:www.twitter.com/{{ site.social.googleplus }}"
+            ]
+        }
+    </script>
 </head>

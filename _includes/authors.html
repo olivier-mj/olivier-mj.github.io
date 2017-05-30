@@ -1,0 +1,32 @@
+<div id="auteur" itemprop="author">
+  <div class="container mw1140p center pam" itemscope="" itemtype="http://schema.org/Person">
+    <div class="details grid-2-small-1">
+      <div class="details--avatar">
+        <img itemprop="image" src="{{ site.data.authors[page.author].avatar | prepend: '/content/avatar/' }}"
+          alt="{{ site.data.authors[page.author].full_name }}">
+      </div>
+      <div class="details--description">
+        <h3>
+          <a itemprop="name" href="{{ site.url }}/blog/auteur/{{ site.data.authors[page.author].slug }}">{{ site.data.authors[page.author].full_name }}</a>
+        </h3>
+        <p>{{ site.data.authors[page.author].bio }}</p>
+
+        <div class="social-icon">
+          {% assign auteur = site.data.authors[page.author] %}
+          <span itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="{{ site.url }}"> 
+          <a itemprop="sameAs" target="_blank" alt="Profil twitter" href="http://plus.google.com/{{ auteur.social.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a itemprop="sameAs" target="_blank" alt="Profil facebook" href="http://www.facebook.com/{{ auteur.social.facebook}}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a itemprop="sameAs" target="_blank" alt="Profil github" href="https://github.com/{{ auteur.social.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a itemprop="sameAs" target="_blank" alt="Profil google" href="https://plus.google.com/+{{ auteur.social.google }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+          <a itemprop="sameAs" target="_blank" alt="Profil linkedin" href="http://www.linkedin.com/in/{{ auteur.social.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a itemprop="sameAs" target="_blank" alt="Profil viadeo" href="http://www.viadeo.com/p/{{ auteur.social.viadeo }}"><i class="fa fa-viadeo" aria-hidden="true"></i></a>
+          </span>
+          <a itemprop="email" alt="Adresse email"href="mailto:{{ auteur.social.email}}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a itemprop="telephone" alt="Profil Skype" href="skype://{{ auteur.social.skype}}?call"><i class="fa fa-skype" aria-hidden="true"></i></a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -21,8 +21,15 @@ author:
 social:
   github: olivier-mj
   twitter: don_padre
+  instagram: don_padre
   linkedin: oliviermariejoseph 
+  viadeo: 0022dhiatm45nxqf
   skype: olivier-mj
+  googleplus: OlivierMarieJoseph
+  
+plugin:
+  disqus_shortname: oliviermariejoseph-fr
+  google_analytics: UA-97093059-1
 
 gems:
 - jekyll-feed
@@ -38,3 +45,23 @@ version: 2.1.0
 
 github:
   repo: https://github.com/olivier-mj/olivier-mj.github.io
+
+
+jekyll_timeago:
+  depth: 2
+  today: aujourd'hui
+  yesterday: hier
+  tomorrow: demain
+  and: et
+  suffix: ''
+  prefix: il y a environ
+  suffix_future: ''
+  prefix_future: dans
+  years: années
+  year: année
+  months: mois
+  month: mois
+  weeks: semaines
+  week: semaine
+  days: jours
+  day: jour

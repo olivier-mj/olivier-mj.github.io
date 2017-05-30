@@ -12,9 +12,15 @@ title: Accueil
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">
+      <time class="timeago" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | timeago }}</time> 
+      {% if page.comments %}
+        • <a href="{{ site.url }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus_shortname }}">0 Commentaires</a>
+      {% endif %}
+    </span>
+    
 
-    {{ post.content | strip_html | truncatewords: 50 }} }}
+    {{ post.content | strip_html | truncatewords: 50 }} 
   </div>
   {% endfor %}
 </div>

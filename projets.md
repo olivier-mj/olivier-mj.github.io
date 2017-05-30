@@ -1,3 +1,4 @@
 ----
-layout
+layout: page
+title: Projets
 ---

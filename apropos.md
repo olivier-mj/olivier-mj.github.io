@@ -244,11 +244,11 @@ ici vous retrouverez :
 
                 </div>
 -----
-<div class="download grid-2">
+<div class="download grid-2 has-gutter">
 	<div class="doc">
-        <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><i class="fa fa-file-word-o" aria-hidden="true"></i> Curriculum vitae au format Word: 51ko</a>
+        <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank" alt="Curriculum vitae au format Word: 51ko"><i class="fa fa-file-word-o" aria-hidden="true"></i> Curriculum vitae .doc</a>
     </div>
     <div class="pdf">
-    	<a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.pdf" target="_blank" alt="Curriculum vitae au format Word: 51ko"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum vitae</a>
+    	<a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.pdf" target="_blank" alt="Curriculum vitae au format Pdf: 611ko"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum vitae .pdf</a>
     </div>
 </div>
