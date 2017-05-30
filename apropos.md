@@ -246,9 +246,9 @@ ici vous retrouverez :
 -----
 <div class="download grid-2">
 	<div class="doc">
-        <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><i class="fa fa-file-word-o" aria-hidden="true"></i>Curriculum vitae au format Word: 51ko</a>
+        <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><i class="fa fa-file-word-o" aria-hidden="true"></i> Curriculum vitae au format Word: 51ko</a>
     </div>
     <div class="pdf">
-    	<a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Curriculum vitae au format Word: 51ko</a>
+    	<a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.pdf" target="_blank" alt="Curriculum vitae au format Word: 51ko"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum vitae</a>
     </div>
 </div>
