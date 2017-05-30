@@ -41,4 +41,4 @@ Comme c'est que de l'html niveau perfomance d'affichage ce fait plus rapidement.
 Les plus connu sont:
 * **Jekyll:** générateur écrit en ruby (Je l'utilise pour ce blog)
 * **Middleman:** Un autre génératueur en ruby.
-* **Hugo:** écrit en Go c'est le 
+* **Hugo:** écrit en Go c'est le petit dernier qui monte qui monte.
