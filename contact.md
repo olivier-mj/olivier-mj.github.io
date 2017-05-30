@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Me contacter
+published: true
 ---
 <section class="contact">
     <p>Une question ? Un problème ? Vous avez un projet de site internet dont vous aimeriez parler ?
@@ -38,4 +39,3 @@ Vous êtes à la recherche d'un web developpeur front-end pour un projet ? Je t�
             </div>
         </div>
 </section>
-
