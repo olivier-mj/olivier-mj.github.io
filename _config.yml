@@ -11,8 +11,8 @@ title: Olivier Marie-Joseph
 name: Olivier Marie-Joseph
 tagline: 'Portfolio'
 description: 'Olivier Marie-Joseph - Développeur Web front & back-end'
-url: /
-baseurl: /
+url: 
+baseurl: https://olivier-mj.github.io/
 
 author:
   name: 'Olivier Marie-Joseph'
