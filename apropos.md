@@ -149,6 +149,7 @@ ici vous retrouverez :
                 </div>
 
 -----
+
 ### Parcours proféssionnel
 
 <div class="timeline">
@@ -242,7 +243,7 @@ ici vous retrouverez :
                     </ul>
 
                 </div>
-
+-----
 <div class="download grid-2">
     <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><img src="{{ site.url }}/public/images/doc.svg" class="icon" width="70" alt="Curriculum vitae au format Word: 51ko"></a>
 
