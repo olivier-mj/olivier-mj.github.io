@@ -21,13 +21,9 @@ ici vous retrouverez :
 * ainsi que ma veille informationnelle
 * et quelques projets personnels.          
              
-<section id="competences" class="competences">
-            <div class="container mw1140p center pam">
-                <div class="txtcenter">
-                    <h2 role="heading" aria-level="heading">Mes compétences :</h2>
-                    <p>Ci-dessous vous trouverez mes compétences</p>
-                </div>
-                <div class="grid-3 has-gutter-l">
+### Compétences
+
+<div class="grid-3 has-gutter-l">
                     <div class="competences--devellopement">
                         <h3 class="txtcenter">Technologies</h3>
                         <div class="skillbar clearfix " data-percent="85%">
@@ -149,9 +145,6 @@ ici vous retrouverez :
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="overlay"></div>
-        </section>         
 
 
 <div class="download">
