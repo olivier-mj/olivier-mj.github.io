@@ -1,6 +1,6 @@
 .logo {
     text-align: center;
-    width: 300px;
+    width: 100%;
 }
 
 .social {
@@ -10,6 +10,7 @@
 .icon {
     color: #ffffff;
     padding: 5px;
+    border-radius: 15px;
 }
 
 .github {
