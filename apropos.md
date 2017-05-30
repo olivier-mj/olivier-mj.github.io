@@ -245,7 +245,12 @@ ici vous retrouverez :
                 </div>
 -----
 <div class="download grid-2">
-    <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><img src="{{ site.url }}/public/images/doc.svg" class="icon" width="70" alt="Curriculum vitae au format Word: 51ko"></a>
-
-    <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.pdf" target="_blank"><img src="{{ site.url }}/public/images/pdf.svg" class="icon" width="70" alt="Curriculum vitae au format PDF: 611ko"></a>    
+	<div class="doc">
+        <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><img src="{{ site.url }}/public/images/doc.svg" class="icon" width="70" alt="Curriculum vitae au format Word: 51ko"></a>
+        Curriculum vitae au format Word: 51ko
+    </div>
+    <div class="pdf">
+    	<a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.pdf" target="_blank"><img src="{{ site.url }}/public/images/pdf.svg" class="icon" width="70" alt="Curriculum vitae au format Word: 51ko"></a>  
+    Curriculum vitae au format Word: 51ko
+    </div>
 </div>
