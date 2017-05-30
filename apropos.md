@@ -25,7 +25,7 @@ ici vous retrouverez :
          
 ### Mes compétences
 
-<div class="grid-3 has-gutter-l">
+<div class="grid-3-small-2 has-gutter">
                     <div class="competences--devellopement">
                         <h3 class="txtcenter">Technologies</h3>
                         <div class="skillbar clearfix " data-percent="85%">
@@ -149,6 +149,99 @@ ici vous retrouverez :
                 </div>
 
 -----
+### Parcours proféssionnel
+
+<div class="timeline">
+                    <h3>2017</h3>
+
+                    <ul>
+                        <li>
+                            <h4>WebForSailor, <br>Web dévellopeur</h4>
+                            <p><b>Stage :</b> Réalisation de prototype fonctionnel et réalisation graphique. </p>
+                            <time>Février 2017</time>
+                        </li>
+                    </ul>
+
+                    <h3>2016</h3>
+
+                    <ul>
+                        <li>
+                            <h4>WebForSailor,<br> Web dévellopeur</h4>
+                            <p><b>Stage :</b> Réalisation et mise en place d'un service web.</p>
+                            <time>De décembre 2016 à janvier 2017</time>
+                        </li>
+                        <li>
+                            <h4>WebForSailor,<br> Web dévellopeur</h4>
+                            <p><b>Stage :</b> Initiation aux générateur de site static Jekyll et Middleman et initiation au
+                                technique accessibilité.</p>
+                            <time>Octobre 2016 à novembre 2016</time>
+                        </li>
+                    </ul>
+
+                    <h3>2014</h3>
+                    <ul>
+                        <li>
+                            <h4>Gutenberg technology</h4>
+                            <p>
+                                <b>Tâches : </b> Numérisations, tri, classements, archivages de bulletins de salaires et
+                                factures fournisseurs.
+                            </p>
+                            <time>Mai 2014</time>
+                        </li>
+                        <li>
+                            <h4>Ditect Energie<br> Opérateur de saisie.</h4>
+                            <p><b>Tâches : </b> Saisie, contrôle, et mise à jour de données en base de données.</p>
+                            <time>Avril 2014</time>
+                        </li>
+                        <li>
+                            <h4>Institut Supérieur Clorivière,<br> Agent admistratif</h4>
+                            <p>
+                                <b>Tâches : </b> Assure l'accueil téléphonique et physique, gestion des plis, colis, et coursier. Saisie et mise en forme des documents, les
+                                transmets et les classes. Procède à l'indexation, au classement et à l'archivage de documents.
+                                Assure la gestion du site internet
+                            </p>
+                            <time>Janvier 2014 à février 2014</time>
+                        </li>
+                    </ul>
+                    <h3>2012</h3>
+
+                    <ul>
+                        <li>
+                            <h4>Helvetia assurance,<br> Agent admistratif</h4>
+                            <p>
+                                <b>Tâches : </b> Accueil physique et téléphonique
+                                des clients et des courtiers, encaissement de chèque en informatique, classement et archivage de document comptable.
+                            </p>
+                            <time>Septembre 2012 à septembre 2013</time>
+                        </li>
+                    </ul>
+                    <h3>2011</h3>
+                    <ul>
+                        <li>
+                            <h4>La Farge, <br> Opérateur de saisie</h4>
+                            <p>
+                                <b>Tâches : </b> Saisie de facture en informatique.
+                            </p>
+                            <time>Mai 2011</time>
+                        </li>
+                        <li>
+                            <h4>
+
+                                Association Intercommunale de Parents d'Enfants Inadaptés, <br> Agent administratif</h4>
+                            <p>
+                                <b>Tâches : </b> Accueil téléphonique et physique, Gestion plis, colis, courriel, coursier
+                                et fax. Planning, création et suivi de support administratif, outil de travail collaboratif.
+                                Saisie et mise en forme des documents. Procède à l'indexation,
+                                au classement et à l'archivage de documents. Saisie de facture et de donnée comptable, rapprochement
+                                bancaire, immobilisation. Devis, commande, facturation, relance client Gestion des stocks,
+                                inventaire, livraisons. Collecte les éléments d'activité du personnel et prépare les éléments
+                                de la paie.
+                            </p>
+                            <time>Janvier 2011 à mars 2011</time>
+                        </li>
+                    </ul>
+
+                </div>
 
 <div class="download">
     <a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><img src="{{ site.url }}/public/images/doc.svg" class="icon" width="70" alt="Curriculum vitae au format Word: 51ko"></a>
