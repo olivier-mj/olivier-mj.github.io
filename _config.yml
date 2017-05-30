@@ -7,10 +7,10 @@ permalink: pretty
 
 # Setup
 locale: fr-FR
-title: Olivier Marie-Joseph
+title: Portfolio d'Olivier Marie-Joseph BTS SIO SLAM
 name: Olivier Marie-Joseph
 tagline: 'Portfolio'
-description: 'Olivier Marie-Joseph <br> Développeur Web front & back-end'
+description: 'Développeur Web front & back-end'
 url: 
 baseurl: https://olivier-mj.github.io/
 
@@ -30,7 +30,6 @@ gems:
 - jekyll-paginate
 - github-pages
 
-destination: public
 
 paginate: 5
 
