@@ -93,3 +93,8 @@ ici vous retrouverez :
         <div class="skill-bar-percent">60%</div>
     </div>
 </div>
+
+
+<a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.doc" target="_blank"><img src="{{ site.url }}/images/doc.svg" class="icon" width="70" alt="Curriculum vitae au format Word: 51ko"></a>
+
+<a href="{{ site.url }}/download/cv-web-developpeur-marie-joseph-ol.pdf" target="_blank"><img src="{{ site.url }}/images/pdf.svg" class="icon" width="70" alt="Curriculum vitae au format PDF: 611ko"></a>

@@ -1,29 +1,28 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown: kramdown
+highlighter: rouge
 
 # Permalinks
-permalink:        pretty
-
+permalink: pretty
 
 # Setup
 locale: fr-FR
 title: Olivier Marie-Joseph
 name: Olivier Marie-Joseph
-tagline:          'A Jekyll theme'
-description:      'Blogueur et développeur originaire de la Guadeloupe et breton par adoption.'
-url:              http://www.oliviermariejoseph.fr/
-baseurl:          /
+tagline: 'Portfolio'
+description: 'Olivier Marie-Joseph - Développeur Web front & back-end'
+url: /
+baseurl: /
 
 author:
-  name:           'Olivier Marie-Joseph'
-  email:          'contact@oliviermariejoseph.fr'
+  name: 'Olivier Marie-Joseph'
+  email: 'contact@oliviermariejoseph.fr'
   
 social:
   github: olivier-mj
+  twitter: don_padre
   linkedin: oliviermariejoseph 
   skype: olivier-mj
-
 
 gems:
 - jekyll-feed
@@ -31,13 +30,12 @@ gems:
 - jekyll-paginate
 - github-pages
 
-
 destination: public
 
-paginate:         5
+paginate: 5
 
 # Custom vars
-version:          2.1.0
+version: 2.1.0
 
 github:
-  repo:           https://github.com/olivier-mj/olivier-mj.github.io
+  repo: https://github.com/olivier-mj/olivier-mj.github.io

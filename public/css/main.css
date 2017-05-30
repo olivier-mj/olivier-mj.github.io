@@ -1,3 +1,29 @@
-.logo{
-    width: 250px;
+.logo {
+    text-align: center;
+    width: 300px;
+}
+
+.social {
+    text-align: center;
+}
+
+.icon {
+    color: #ffffff;
+    padding: 5px;
+}
+
+.github {
+    background:gray;
+}
+
+.twitter {
+    background: #55ACEE;
+}
+
+.linkedin {
+    background: #0177B5;
+}
+
+.skype {
+    background: #0cbadf;
 }
