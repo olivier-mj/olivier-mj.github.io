@@ -189,3 +189,9 @@
   .author .email {
     text-decoration: none;
     color: #0562dc; }
+img {
+    display: block;
+    max-width: 81%;
+    margin: 0 0 1rem;
+    border-radius: 185px;
+}
