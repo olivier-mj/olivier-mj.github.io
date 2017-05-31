@@ -1,8 +1,6 @@
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-<script src="{{ "/assets/js/bundle.min.js"  | relative_url }}"></script>
-{% if site.modedev != true %}
-<script src="{{ "/assets/js/app.js"  | relative_url }}"></script>
-{% endif %}
+<script src="{{ "/public/js/app.js"  | absolute_url }}"></script>
+
 <script id="dsq-count-scr" src="//{{ site.plugin.disqus_shortname }}.disqus.com/count.js" async></script>
  <script>
         mapboxgl.accessToken =
