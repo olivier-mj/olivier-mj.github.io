@@ -12,12 +12,27 @@ title: Accueil
       </a>
     </h1>
 
-    <span class="post-date">
-      <time class="timeago" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | timeago }}</time> 
-      {% if page.comments %}
-        • <a href="{{ site.url }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus_shortname }}">0 Commentaires</a>
-      {% endif %}
-    </span>
+    <span class="post-date">{% assign m = post.date | date: "%-m" %}
+{{ page.dost | date: "%-d" }}
+{% case m %}
+  {% when '1' %}Janvier
+  {% when '2' %}Fevrier
+  {% when '3' %}Mars
+  {% when '4' %}Avril
+  {% when '5' %}Mai
+  {% when '6' %}Juin
+  {% when '7' %}Juillet
+  {% when '8' %}Août
+  {% when '9' %}Septembre
+  {% when '10' %}Octobre
+  {% when '11' %}Novembre
+  {% when '12' %}Décember
+{% endcase %}
+{{ page.dost | date: "%Y" }}
+  
+    {% if page.comments %}
+  • <a href="{{ site.url }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus_shortname }}">0 Commentaires</a>
+          {% endif %}</span>
     
 
     {{ post.content | strip_html | truncatewords: 50 }} 
