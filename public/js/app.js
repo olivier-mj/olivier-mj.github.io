@@ -65,7 +65,7 @@
         e.preventDefault();
         var url = this.getAttribute('data-url');
         var shareUrl = "mailto:?subject=" + encodeURIComponent(document.title) + "&amp;body=" + encodeURIComponent(document.url);
-        popupCenter(shareUrl, "Partager par courriel");
+       open(shareUrl, "Partager par courriel");
     });
   
 whatsapp://send?text
