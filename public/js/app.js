@@ -54,6 +54,13 @@
         popupCenter(shareUrl, "Partager sur Reddit");
     });
   
+  	document.querySelector('.share_pocket').addEventListener('click', function(e){
+        e.preventDefault();
+        var url = this.getAttribute('data-url');
+        var shareUrl = "https://getpocket.com/edit.php?url=" + encodeURIComponent(url) + " &title=" + encodeURIComponent(document.title);
+        popupCenter(shareUrl, "Partager sur Reddit");
+    });
+  
 
 })();
 /** Social share **/
