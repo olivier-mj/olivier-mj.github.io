@@ -61,6 +61,13 @@
         popupCenter(shareUrl, "Partager sur Reddit");
     });
   
+  	document.querySelector('.share_email').addEventListener('click', function(e){
+        e.preventDefault();
+        var url = this.getAttribute('data-url');
+        var shareUrl = "mailto:?subject=" + encodeURIComponent(document.title) + "&amp;body=" + encodeURIComponent(document.url);
+        popupCenter(shareUrl, "Partager sur Reddit");
+    });
+  
 
 })();
 /** Social share **/
