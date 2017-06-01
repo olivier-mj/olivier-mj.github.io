@@ -143,8 +143,10 @@
 .share_whatapp {
   background-color: #009688; }
 
-.share_whatapp {
+.share_reddit {
   background-color: #009688; }
+.share_pocket {
+  background: #ee4056; }
 
 @media only screen and (min-width: 37.5rem) {
   .author {
