@@ -13,7 +13,7 @@ title: Accueil
     </h1>
 
     <span class="post-date">{% assign m = post.date | date: "%-m" %}
-{{ page.post | date: "%-d" }}
+{{ post.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Janvier
   {% when '2' %}Fevrier
@@ -28,7 +28,7 @@ title: Accueil
   {% when '11' %}Novembre
   {% when '12' %}Décember
 {% endcase %}
-{{ page.post | date: "%Y" }}
+{{ post.date | date: "%Y" }}
   
     {% if page.comments %}
   • <a href="{{ site.url }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus_shortname }}">0 Commentaires</a>
