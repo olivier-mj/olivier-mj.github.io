@@ -58,16 +58,16 @@
         e.preventDefault();
         var url = this.getAttribute('data-url');
         var shareUrl = "https://getpocket.com/edit.php?url=" + encodeURIComponent(url) + " &title=" + encodeURIComponent(document.title);
-        popupCenter(shareUrl, "Partager sur Reddit");
+        popupCenter(shareUrl, "Sauvegarder sur Pocket");
     });
   
   	document.querySelector('.share_email').addEventListener('click', function(e){
         e.preventDefault();
         var url = this.getAttribute('data-url');
         var shareUrl = "mailto:?subject=" + encodeURIComponent(document.title) + "&amp;body=" + encodeURIComponent(document.url);
-        popupCenter(shareUrl, "Partager sur Reddit");
+        popupCenter(shareUrl, "Partager par courriel");
     });
   
-
+whatsapp://send?text
 })();
 /** Social share **/
