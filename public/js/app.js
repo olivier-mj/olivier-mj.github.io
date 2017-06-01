@@ -22,7 +22,6 @@
         e.preventDefault();
         var url = this.getAttribute('data-url');
         var shareUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.title) +
-            "&via=Donpadre_fr" +
             "&url=" + encodeURIComponent(url);
         popupCenter(shareUrl, "Partager sur Twitter");
     });
