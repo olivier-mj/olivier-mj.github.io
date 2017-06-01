@@ -22,12 +22,12 @@ published: true
   {% when '11' %}November
   {% when '12' %}Dezember
 {% endcase %}
-{{ page.date | date: "%Y" }}</span>
-  {% if page.comments %}
-  <span>
-        • <a href="{{ site.url }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus_shortname }}">0 Commentaires</a>
-  </span>
-          {% endif %}
+{{ page.date | date: "%Y" }}
+  
+    {% if page.comments %}
+  • <a href="{{ site.url }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus_shortname }}">0 Commentaires</a>
+          {% endif %}</span>
+
   {{ content }}
 </div>
 
