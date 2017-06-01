@@ -17,7 +17,7 @@ published: true
            {% assign myDate = currentDate %}
        {% endif %}
        <li><a href="{{ post.url }}"><span>{% assign m = post.date | date: "%-m" %}
-{{ page.date | date: "%-d" }}
+{{ post.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Janvier
   {% when '2' %}Fevrier
@@ -32,7 +32,7 @@ published: true
   {% when '11' %}Novembre
   {% when '12' %}Décember
 {% endcase %}
-{{ page.date | date: "%Y" }}</span> - {{ post.title }}</a></li>
+{{ post.date | date: "%Y" }}</span> - {{ post.title }}</a></li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 
