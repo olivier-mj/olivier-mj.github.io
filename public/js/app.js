@@ -47,6 +47,13 @@
         popupCenter(shareUrl, "Partager sur Linkedin");
     });
   
+    document.querySelector('.share_whatsapp').addEventListener('click', function(e){
+        e.preventDefault();
+        var url = this.getAttribute('data-url');
+        var shareUrl = "whatsapp://send?text=" + encodeURIComponent(url);
+        open(shareUrl, "Partager sur Whatsapp");
+    });
+  
   	document.querySelector('.share_reddit').addEventListener('click', function(e){
         e.preventDefault();
         var url = this.getAttribute('data-url');
@@ -68,6 +75,6 @@
        open(shareUrl, "Partager par courriel");
     });
   
-whatsapp://send?text
+
 })();
 /** Social share **/
