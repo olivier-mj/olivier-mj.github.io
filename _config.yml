@@ -11,16 +11,15 @@ lang: fr
 title: "Portfolio d'Olivier Marie-Joseph BTS SIO SLAM"
 name: Olivier Marie-Joseph
 initiale: O.M-J
-<<<<<<< HEAD
+
 tagline: 'Portfolio'
-<<<<<<< HEAD
+
 description: 'Olivier MJ, <br>Développeur Web <br> Front-end & Back-end'
-=======
-=======
+
 tagline: "Portfolio"
->>>>>>> 0aac64e9fd8c747f204a3c3ece20e517e9086c31
+
 description: "Portfolio d'Olivier Marie-Joseph BTS SIO SLAM, développeur Web <br> Front-end & Back-end"
->>>>>>> ab84242be5178ccd911a086f2560834627aab62e
+
 url: https://olivier-mj.github.io
 baseurl: /
 
