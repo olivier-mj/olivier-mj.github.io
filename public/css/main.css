@@ -189,7 +189,7 @@
   .author .email {
     text-decoration: none;
     color: #0562dc; }
-.post img {
+.details--avatar img {
     display: block;
     max-width: 81%;
     margin: 0 0 1rem;
