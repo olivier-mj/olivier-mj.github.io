@@ -13,8 +13,8 @@ name: Olivier Marie-Joseph
 initiale: O.M-J
 tagline: 'Portfolio'
 description: 'Développeur Web <br> front-end & back-end'
-url: 
-baseurl: https://olivier-mj.github.io/
+url: https://olivier-mj.github.io
+baseurl: /
 
 author:
   name: 'Olivier Marie-Joseph'
