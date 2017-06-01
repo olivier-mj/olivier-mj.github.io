@@ -235,6 +235,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-livereload
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-timeago
   tzinfo-data
 

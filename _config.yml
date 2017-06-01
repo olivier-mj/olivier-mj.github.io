@@ -76,3 +76,11 @@ jekyll_timeago:
   week: semaine
   days: jours
   day: jour
+
+
+exclude: 
+  - README.md
+  - Gemfile.lock
+  - Gemfile 
+  - _config.dev.yml
+  - serve.bat
