@@ -201,9 +201,12 @@
   .author .email {
     text-decoration: none;
     color: #0562dc; }
+.details--avatar {
+  
+}
 .details--avatar img {
     display: block;
-    max-width: 81%;
+    max-width: 60%;
     margin: 0 0 1rem;
     border-radius: 185px;
 }
