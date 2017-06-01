@@ -16,7 +16,8 @@ published: true
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ page.date | date: "%-d" }}
+       <li><a href="{{ post.url }}"><span>{% assign m = page.date | date: "%-m" %}
+{{ page.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Janvier
   {% when '2' %}Fevrier
