@@ -140,6 +140,9 @@
 .share_linkedin {
   background-color: #0177B5; }
 
+.share_whatapp {
+  background-color: #009688; }
+
 @media only screen and (min-width: 37.5rem) {
   .author {
     padding: 3.125rem 0; }
