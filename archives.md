@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Archive
-permalink: /archive/
+permalink: /archives/
+published: true
 ---
 
 
