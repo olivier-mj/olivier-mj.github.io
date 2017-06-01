@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: Archive
 permalink: /archives/
 published: true
 ---
-
+# Archive
 
 <div class="archive-post-list">
 
