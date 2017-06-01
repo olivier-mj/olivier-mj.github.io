@@ -46,6 +46,13 @@
         var shareUrl = "https://www.linkedin.com/shareArticle?url=" + encodeURIComponent(url);
         popupCenter(shareUrl, "Partager sur Linkedin");
     });
+  
+  	document.querySelector('.share_reddit').addEventListener('click', function(e){
+        e.preventDefault();
+        var url = this.getAttribute('data-url');
+        var shareUrl = "http://www.reddit.com/submit?url=" + encodeURIComponent(url);
+        popupCenter(shareUrl, "Partager sur Reddit");
+    });
 
 })();
 /** Social share **/
