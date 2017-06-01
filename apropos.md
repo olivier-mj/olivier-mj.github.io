@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Propos
+title: A propos
 published: true
 ---
 
