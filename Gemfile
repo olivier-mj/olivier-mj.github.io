@@ -25,6 +25,8 @@ group :jekyll_plugins do
     gem "jekyll-admin"
     gem 'jekyll-timeago'
     gem "jekyll-paginate"
+    gem "i18n"
+    gem "jekyll-seo-tag"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

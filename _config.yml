@@ -7,6 +7,7 @@ permalink: pretty
 
 # Setup
 locale: fr-FR
+lang: fr
 title: Portfolio d'Olivier Marie-Joseph BTS SIO SLAM
 name: Olivier Marie-Joseph
 initiale: O.M-J
@@ -37,6 +38,8 @@ gems:
 - jekyll-timeago
 - jekyll-paginate
 - github-pages
+- i18n
+- jekyll-seo-tag
 
 
 paginate: 5
