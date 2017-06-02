@@ -1,6 +1,6 @@
 ---
-title: Blog
 layout: page
+title: Blog
 permalink: "/blog/"
 
 paginate: 6
@@ -39,7 +39,7 @@ paginate_path: "/page:num/"
           </span>
     
 
-    {{ post.content | strip_html | truncatewords: 50 }} 
+    {{ post.content | strip_html | truncatewords: 50 | '<a href=' post.url '> Lire la suite </a>' }} 
   </div>
   {% endfor %}
 </div>
