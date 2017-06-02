@@ -4,7 +4,9 @@ layout: post
 comments: true
 categorie: web developpement
 tags:
-  - jekyll - jamstack - generateur
+  - jekyll 
+  - jamstack 
+  - generateur
 author: olivier
 ---
 ## Qu'est ce que jekyll ?
