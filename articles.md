@@ -2,6 +2,8 @@
 title: Blog
 layout: page
 permalink: "/blog/"
+pagination: 
+  enabled: true
 paginate: 6
 paginate_path: "/page:num/"
 ---
