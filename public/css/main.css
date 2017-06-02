@@ -254,10 +254,9 @@
 
 .social-icon {
     padding-bottom: 15px;
-    text-align: center;
-    color: #000;    
+    text-align: center;   
 }
-.social-icon span a {
+.social-icon  a {
     color: #000;
 }
 
