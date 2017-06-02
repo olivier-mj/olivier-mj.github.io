@@ -256,6 +256,9 @@
     padding-bottom: 15px;
     text-align: center;
 }
+.social-icon span a {
+    color: #000;
+}
 
 .item {
     background: #f4f4f6;
