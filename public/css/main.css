@@ -258,6 +258,8 @@
 
 .item {
     background: #f4f4f6;
+    list-style: none;
+    padding: 0;
 }
 
 .item_content {
