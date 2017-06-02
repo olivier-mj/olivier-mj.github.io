@@ -8,7 +8,7 @@ paginate_path: "/page:num/"
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
