@@ -247,7 +247,8 @@
 .details--avatar img {
     display: block;
     max-width: 60%;
-    margin: 0 0 1rem;
+    margin: auto;
+    margin-top: 42px;
     border-radius: 185px;
 }
 
