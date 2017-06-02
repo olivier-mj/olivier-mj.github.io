@@ -1,9 +1,28 @@
 - title : "Gulp : A Web développer's Secret Weapon for Maximizing Site Speed"
   categorie : web développment
+  tag:
+    - gulp
+    - automatisation
+    - nodejs
   thumb: direct.jpg
   url: https://www.toptal.com/javascript/optimize-js-and-css-with-gulp
 
-- title : "Gulp : A Web développer's Secret Weapon for Maximizing Site Speed"
+- title : "Slim Framework 3: le micro-framework"
   categorie : web développment
+  tag: 
+    - php
+    - framework
+    - slim framework 3
+    - twig
   thumb: direct.jpg
-  url: https://www.toptal.com/javascript/optimize-js-and-css-with-gulp
+  url: https://www.grafikart.fr/tutoriels/php/slim-framework-831
+  
+- title : "Slim Framework 3: le micro-framework"
+  categorie : web développment
+  tag: 
+    - php
+    - framework
+    - slim framework 3
+    - twig
+  thumb: direct.jpg
+  url: https://www.grafikart.fr/tutoriels/php/slim-framework-831
