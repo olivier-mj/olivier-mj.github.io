@@ -73,8 +73,17 @@ Les fonctions principales devront être :
 	
 ![architecture.jpg]({{site.url}}/content/architecture.jpg)
 
- 
 Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au prestataire **Saint-Malo DLIS** (Développement Logiciel et Intégration Systèmes), une Entreprise de Services du Numérique (ESN), anciennement nommée Société de Service en Ingénierie Informatique (SSII).
+
+----
+
+## 1 Spécifications
+
+### Diagramme des cas d'utilisations
+
+![Diagramme des cas d'utilisations en uml]({{site.url}}/content/UML.png)
+
+
 
 
 
