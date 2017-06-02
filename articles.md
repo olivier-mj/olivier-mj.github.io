@@ -2,9 +2,10 @@
 layout: page
 title: Blog
 permalink: "/blog/"
-
-paginate: 6
-paginate_path: "/page:num/"
+paginate: 3
+paginate_path: "/blog/page:num/"
+pagination: 
+  enabled: true
 ---
 
 <div class="posts">

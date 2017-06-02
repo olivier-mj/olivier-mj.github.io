@@ -24,9 +24,8 @@ group :jekyll_plugins do
     gem "jekyll-livereload"     
     gem "jekyll-admin"
     gem 'jekyll-timeago'
-    gem "jekyll-paginate"
+    gem "jekyll-paginate-v2"
     gem "jekyll-paginate-categories"
-    gem "i18n"
     gem "jekyll-seo-tag"
 end
 
