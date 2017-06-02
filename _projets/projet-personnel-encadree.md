@@ -52,11 +52,30 @@ Un formulaire en ligne devra être rempli par les stagiaires, concernant les don
 
 Pour le Tuteur de l’entreprise :
 *	Avoir accès à la fiche remplie par le stagiaire ainsi que la date de visite prévue par le Tuteur du centre de formation.
+
 Pour les Tuteurs du centre de formation :
 *	Liste de stagiaires affectés
 *	Possibilité d’affecter des dates de visite de stagiaires
 *	Possibilité de rédiger un compte rendu de visite
+
 Apparaîtra le ou les dates de visites du tuteur centre de formation.
+Le client léger WEB devra être accessible par un identifiant plus mot de passe.
+
+L’administration de la base de données des stages se fera par le biais d’un client lourd installé sur un PC qui aura accès à la base de données.
+Les fonctions principales devront être :
+*	L’ajout et la suppression de stagiaires
+*	L’ajout et la suppression de tuteurs (entreprise et centre de formation)
+*	L’ajout et la suppression d’entreprises
+*	Édition d’état concernant
+	*	Les visites effectuées et celles non faîtes
+	*	Liste de stages filtrés par lieux géographiques, par thématique
+	*	Comptes rendus de visite par stagiaires
+	
+![architecture.jpg]({{site.url}}/content/architecture.jpg)
+
+ 
+Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au prestataire **Saint-Malo DLIS** (Développement Logiciel et Intégration Systèmes), une Entreprise de Services du Numérique (ESN), anciennement nommée Société de Service en Ingénierie Informatique (SSII).
+
 
 
 
