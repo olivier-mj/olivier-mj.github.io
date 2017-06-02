@@ -1,1 +1,1 @@
-bundle exec jekyll serve --watch --livereload
+bundle exec jekyll serve --watch --config "_config.yml,_config.dev.yml" --livereload

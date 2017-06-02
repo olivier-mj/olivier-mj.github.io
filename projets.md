@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Portfolio
+layout: projets
+title: Projets
 pagination: 
   enabled: true
   permalink: '/:num/'
-  collection: portfolio
+  collection: projets
 ---

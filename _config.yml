@@ -84,3 +84,8 @@ exclude:
   - Gemfile 
   - _config.dev.yml
   - serve.bat
+
+collections:
+  projets:
+      output: true
+      permalink: /projets/:path/
