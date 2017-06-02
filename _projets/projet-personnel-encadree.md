@@ -81,7 +81,7 @@ Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au p
 
 ### Diagramme des cas d'utilisations
 
-![Diagramme des cas d'utilisations en uml]({{site.url}}/content/UML.jpg)
+![Diagramme des cas d'utilisations en uml]({{site.url}}/content/UML.png)
 
 
 
