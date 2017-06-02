@@ -79,10 +79,13 @@ Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au p
 
 ## 1 Spécifications
 
-### Diagramme des cas d'utilisations
+### 1.1 Diagramme des cas d'utilisations
 
 ![Diagramme des cas d'utilisations en uml]({{site.url}}/content/UML.png)
 
+### 1.2 Modèle conceptuel de données
+
+![Modèle conceptuel de données]({{site.url}}/content/MCD.png)
 
 
 
