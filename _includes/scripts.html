@@ -1,6 +1,12 @@
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/public/js/app.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/public/js/lightbox.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/public/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })
+</script>
 <script id="dsq-count-scr" src="//{{ site.plugin.disqus_shortname }}.disqus.com/count.js" async></script>
  <script>
         mapboxgl.accessToken =
