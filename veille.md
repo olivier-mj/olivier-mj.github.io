@@ -6,6 +6,7 @@ title2: Veille numérique & technologique.
 
 ## {{ page.title2 }}
 
+
 <div class="veille grid">
     <ul>
     {% for item in site.data.veille %}
