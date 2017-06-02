@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Veille
 title2: Veille numérique & technologique.
 ---
