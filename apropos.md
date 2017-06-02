@@ -1,6 +1,7 @@
 ---
 layout: page
 title: A propos
+mapbox: true
 published: true
 ---
 
