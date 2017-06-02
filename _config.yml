@@ -42,7 +42,6 @@ gems:
 - jekyll-paginate-v2
 - jekyll-paginate-categories
 - github-pages
-- i18n
 - jekyll-seo-tag
 
 
