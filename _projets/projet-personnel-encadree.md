@@ -106,9 +106,9 @@ Logiciel de gestion de version   GitHub.
 
 
 
-##3	MissionS ENVISAGEABLES
+## 3	Missions Envisageables
 
-### 3.1	Dévelopement web
+### 3.1	Client léger (site web)
 
 #### 3.1.1	Mission 1
 
@@ -125,7 +125,7 @@ Le stagiaire ajoute et /ou modifie les périodes de stage, les informations sero
 
 Le stagiaire crée une période de stage, qui sera enregistrée dans la base de données.
 
-### 3.2	CLIENT LOURD (JAVA)
+### 3.2	Client Lourd (JAVA)
 
 #### 3.2.1	Mission 1
 
