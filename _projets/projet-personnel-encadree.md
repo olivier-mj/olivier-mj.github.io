@@ -71,7 +71,7 @@ Les fonctions principales devront être :
 	*	Liste de stages filtrés par lieux géographiques, par thématique
 	*	Comptes rendus de visite par stagiaires
 	
-![architecture.jpg]({{site.url}}/content/architecture.jpg)
+<a href="{{site.url}}/content/architecture.jpg" data-featherlight="image">![architecture.jpg]({{site.url}}/content/architecture.jpg)</a>
 
 Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au prestataire **Saint-Malo DLIS** (Développement Logiciel et Intégration Systèmes), une Entreprise de Services du Numérique (ESN), anciennement nommée Société de Service en Ingénierie Informatique (SSII).
 
@@ -84,7 +84,7 @@ Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au p
 
 
 ### 1.2 Modèle conceptuel de données
-![Modèle conceptuel de données]({{site.url}}/content/MCD.png)
+<a href="{{site.url}}/content/MCD.png" data-featherlight="image">![Modèle conceptuel de données]({{site.url}}/content/MCD.png)</a>
 
 
 
