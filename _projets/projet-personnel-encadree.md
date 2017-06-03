@@ -1,5 +1,5 @@
 ---
-title: Projets Personnels Encadrés - Gestion des stages
+title: "Projets Personnels Encadrés <br> Gestion des stages"
 layout: page
 description: Vous trouverez ici les projets réalisé pour mon PPE.
 image: projet-personnel-encadre.png
