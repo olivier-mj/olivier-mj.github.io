@@ -5,7 +5,47 @@ description: Vous trouverez ici les projets réalisé pour mon PPE.
 image: projet-personnel-encadre.png
 published: true
 ---
-
+<div class="sommaire">
+	<strong>Sommaires</strong>
+	<div id="sommaire">
+		<ul>
+			<li><a href="#context-géneral">Contexte général</a></li>
+			<li><a href="#cahier-des-charges">Cahier des charges.</a></li>
+			<li><a href="#1-spécificationss=">1 Spécifications</a>
+				<ul>
+					<li><a href="#11-diagramme-des-cas-dutilisations">1.1 Diagramme des cas d’utilisations</a></li>
+					<li><a href="#12-modèle-conceptuel-de-données">1.2 Modèle conceptuel de données</a></li>
+				</ul>
+			</li>
+			<li><a href="#architecture-applicative">2 Architecture Applicative</a>
+				<ul>
+					<li><a href="#21-environement-de-production">2.1 Environement de production</a></li>
+					<li><a href="#22-environement-de-développement">2.2 Environement de développement</a></li>
+				</ul>
+			</li>
+			<li><a href="#3-missions-envisageables">3 Missions Envisageables</a>
+				<ul>
+					<li><a href="#3.1-client-leger-site-web">3.1 Client léger (site web)</a>
+						<ul>
+							<li><a href="#311-mission-1">3.1.1 Mission 1</a></li>
+							<li><a href="#312-mission-2">3.1.2 Mission 2</a></li>
+							<li><a href="#313-mission-3">3.1.3 Mission 3</a></li>
+							<li><a href="#314-mission-4">3.1.4 Mission 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">3.2 Client Lourd (JAVA)</a>
+						<ul>
+							<li><a href="#321-mission-1">3.2.1 Mission 1</a></li>
+							<li><a href="#322-mission-2">3.2.2 Mission 2</a></li>
+							<li><a href="#323-mission-3">3.2.3 Mission 3</a></li>
+							<li><a href="#324-mission-3">3.2.4 Mission 4</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
 ## Contexte général
 
 Chaque année, un centre de formation, forme de nombreux adultes, par le biais de la formation continue. Dans le vocabulaire de la formation continue, les apprenants sont appelés stagiaires. Ceux-ci sont généralement amenés à effectuer un ou plusieurs stages entrepris, administrations et organisations, durant leur période de formation.
