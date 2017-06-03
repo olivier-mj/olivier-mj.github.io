@@ -80,11 +80,10 @@ Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au p
 ## 1 Spécifications
 
 ### 1.1 Diagramme des cas d'utilisations
-
+<a class="example-image-link" href="{{site.url}}/content/UML.png" data-lightbox="example-set" data-title="Diagramme des cas d'utilisations en uml."><img class="example-image" src="{{site.url}}/content/UML.png" alt="Diagramme des cas d'utilisations en uml"></a>
 ![Diagramme des cas d'utilisations en uml]({{site.url}}/content/UML.png)
 
 ### 1.2 Modèle conceptuel de données
-
 ![Modèle conceptuel de données]({{site.url}}/content/MCD.png)
 
 
