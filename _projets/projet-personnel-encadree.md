@@ -5,7 +5,7 @@ description: Vous trouverez ici les projets réalisé pour mon PPE.
 image: projet-personnel-encadre.png
 published: true
 ---
-<div class="sommaire">
+<div class="sommaire message">
 	<strong>Sommaires</strong>
 	<div id="sommaire">
 		<ul>
