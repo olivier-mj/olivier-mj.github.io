@@ -260,33 +260,7 @@
     color: #000;
 }
 
-.item {
-    background: #f4f4f6;
-    list-style: none;
-    padding: 0;
-}
-
-.item_content {
-    border: 1px solid #ededf0;
-    border-bottom: 1px solid #dcdce0;
-    height: 280px;
-}
-
-.item_link {
-    display: block;
-   
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-}
-
-.title {
-    font-size: 1.46154em;
-    padding: .7em;
-}
-div#toc {
-    padding: 10px;
-    border: 1px solid #aaa;
-    display: inline-block !important;
+.page, .post{
+    margin-bottom: 4em;
+    width: 250vh;
 }
