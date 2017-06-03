@@ -2,6 +2,13 @@
 <script src="{{ site.url }}{{ site.baseurl }}/public/js/app.js"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.6/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script id="dsq-count-scr" src="//{{ site.plugin.disqus_shortname }}.disqus.com/count.js" async></script>
+<sript src="{{ site.url }}{{ site.baseurl }}/public/js/toc.js"></sript>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
 {% if mapbox %}
 <script>
     mapboxgl.accessToken =
