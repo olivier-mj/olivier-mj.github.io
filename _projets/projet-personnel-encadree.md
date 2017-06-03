@@ -86,6 +86,62 @@ Pour le développement de ce projet, le **GRETA Est Bretagne** a fait appel au p
 ### 1.2 Modèle conceptuel de données
 <a href="{{site.url}}/content/MCD.png" data-featherlight="image">![Modèle conceptuel de données]({{site.url}}/content/MCD.png)</a>
 
+----
+
+## 2 Architecture Applicative
+
+### 2.1	Environement de production
+
+La base de donnée est hébergée sur un S.G.B.D.R. MySQL.
+Le site Internet est hébergé sur un serveur Web Apache.
+Le client lourd est une application Java pour Windows.
+
+### 2.2	Environement de développement
+
+Développement web avec la plateforme WAMP, avec l'IDE PhpStorm, Atom, Notepad ou Microsoft Visual Studio Code.
+Développement en Java sous l'IDE NetBeans.
+Modélisation UML avec BOUML.
+Modélisation MERISE avec Jmerise.
+Logiciel de gestion de version   GitHub.
+
+
+
+##3	MissionS ENVISAGEABLES
+
+### 3.1	Dévelopement web
+
+#### 3.1.1	Mission 1
+
+Le stagiaire saisi les informations de son entreprise d’accueil, qui seront enregistrées dans la base de données.
+
+#### 3.1.2	Mission 2
+
+Le stagiaire modifie ses informations personnelles, les modifications seront enregistrées dans la base de données.
+
+#### 3.1.3	Mission 3
+Le stagiaire ajoute et /ou modifie les périodes de stage, les informations seront enregistrées dans la base de données.
+
+#### 3.1.4	Mission 4
+
+Le stagiaire crée une période de stage, qui sera enregistrée dans la base de données.
+
+### 3.2	CLIENT LOURD (JAVA)
+
+#### 3.2.1	Mission 1
+
+Ajouter, modifier et supprimer dans la base de données les données de la table entreprises.
+
+#### 3.2.2	Mission 2
+
+Ajouter, modifier et supprimer dans la base de données les données de la table stagiaires.
+
+#### 3.2.3	Mission 3
+
+Ajouter, modifier et supprimer dans la base de données les données de la table formateur.
+
+#### 3.2.4	Mission 4
+
+Ajouter, modifier et supprimer dans la base de données les données de la table période.
 
 
 
