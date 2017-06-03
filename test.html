@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="public/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <h1 class="page-title">Projets Personnels Encadrés - Gestion des stages</h1>
+
+        <p>
+            <strong>Sommaires</strong>
+            <ul id="sommaire"></ul>
+        </p>
+
+        <h2 id="contexte-général">Contexte général</h2>
+
+        <p>Chaque année, le <strong>GRETA Est Bretagne</strong>, forme de nombreux adultes, par le biais de la formation continue.
+            Dans le vocabulaire de la formation continue, les apprenants sont appelés stagiaires. Ceux-ci sont généralement
+            amenés à effectuer un ou plusieurs stages entrepris, administrations et organisations, durant leur période de
+            formation.</p>
+
+        <p>Ces stages doivent faire l’objet de visites en situation, par des formateurs GRETA. Pour l’organisation des plannings
+            de visites, les formateurs doivent rechercher les coordonnées des entreprises, administrations et organisations,
+            dans les conventions de stage.</p>
+
+        <p>Chaque visite doit être consigné dans un rapport de visite, rempli en partie par le tuteur du stagiaire en entreprise,
+            et par le formateur effectuant la visite en situation.</p>
+
+        <p>La gestion de tous ces nombreux documents papiers est fastidieuse : archivage et accès à ces documents, ainsi qu’aux
+            informations qu’ils contiennent.</p>
+
+        <p>Pour faciliter l’organisation des plannings de visite et la saisie des rapports de visite, le <strong>GRETA Est Bretagne</strong>            envisage de l’informatiser la gestion des stages, en stockant dans une base de données, les informations sur
+            ceux-ci, et les coordonnées des entreprises, administrations et organisations.</p>
+
+        <p>Ce système devra permettre de :</p>
+
+        <ul>
+            <li>
+                <p>Aux stagiaires de formation continu de renseigner dans une base de données concernant les informations inhérentes
+                    à leurs périodes de stages.</p>
+            </li>
+            <li>
+                <p>Aux tuteurs de l’entreprise, ainsi que ceux du centre de formation, d’organiser leurs visites de stagiaires
+                    et aussi d’y associer un rapport de visite.</p>
+            </li>
+            <li>
+                <p>À l’administration du centre de formation de gérer la base de données et de sortir des états de situation
+                    de stages, de visites, de listes d’entreprise aux cours des années précédente en fonction de thématiques,
+                    etc…</p>
+            </li>
+        </ul>
+
+        <p>Le vecteur de communication sera un site WEB pour les utilisateurs et une application développée en JAVA pour l’administrateur.</p>
+
+        <hr>
+
+        <h2 id="cahier-des-charges">Cahier des charges.</h2>
+
+        <p>Un formulaire en ligne devra être rempli par les stagiaires, concernant les données du stage :</p>
+        <ul>
+            <li>Lieu
+                <ul>
+                    <li>Nom Entreprise,</li>
+                    <li>Adresse
+                        <ul>
+                            <li>Rue</li>
+                            <li>Ville</li>
+                        </ul>
+                    </li>
+                    <li>Téléphone</li>
+                    <li>Tuteur entreprise</li>
+                    <li>Thème du stage</li>
+                </ul>
+            </li>
+            <li>Date de stage
+                <ul>
+                    <li>Début</li>
+                    <li>Fin</li>
+                </ul>
+            </li>
+            <li>Tuteur centre de formation
+                <ul>
+                    <li>Nom</li>
+                    <li>Prénom</li>
+                    <li>Téléphone</li>
+                </ul>
+            </li>
+            <li>Descriptif rapide du stage</li>
+        </ul>
+
+        <p>Pour le Tuteur de l’entreprise :</p>
+        <ul>
+            <li>Avoir accès à la fiche remplie par le stagiaire ainsi que la date de visite prévue par le Tuteur du centre de
+                formation.</li>
+        </ul>
+
+        <p>Pour les Tuteurs du centre de formation :</p>
+        <ul>
+            <li>Liste de stagiaires affectés</li>
+            <li>Possibilité d’affecter des dates de visite de stagiaires</li>
+            <li>Possibilité de rédiger un compte rendu de visite</li>
+        </ul>
+
+        <p>Apparaîtra le ou les dates de visites du tuteur centre de formation. Le client léger WEB devra être accessible par
+            un identifiant plus mot de passe.</p>
+
+        <p>L’administration de la base de données des stages se fera par le biais d’un client lourd installé sur un PC qui aura
+            accès à la base de données. Les fonctions principales devront être :</p>
+        <ul>
+            <li>L’ajout et la suppression de stagiaires</li>
+            <li>L’ajout et la suppression de tuteurs (entreprise et centre de formation)</li>
+            <li>L’ajout et la suppression d’entreprises</li>
+            <li>Édition d’état concernant
+                <ul>
+                    <li>Les visites effectuées et celles non faîtes</li>
+                    <li>Liste de stages filtrés par lieux géographiques, par thématique</li>
+                    <li>Comptes rendus de visite par stagiaires</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p><a href="https://olivier-mj.github.io/content/architecture.jpg" data-featherlight="image"><img src="https://olivier-mj.github.io/content/architecture.jpg" alt="architecture.jpg"></a></p>
+
+        <p>Pour le développement de ce projet, le <strong>GRETA Est Bretagne</strong> a fait appel au prestataire <strong>Saint-Malo DLIS</strong>            (Développement Logiciel et Intégration Systèmes), une Entreprise de Services du Numérique (ESN), anciennement
+            nommée Société de Service en Ingénierie Informatique (SSII).</p>
+
+        <hr>
+
+        <h2 id="1-spécifications">1 Spécifications</h2>
+
+        <h3 id="11-diagramme-des-cas-dutilisations">1.1 Diagramme des cas d’utilisations</h3>
+        <p><a href="https://olivier-mj.github.io/content/UML.png" data-featherlight="image"><img src="https://olivier-mj.github.io/content/UML.png" alt="Diagramme des cas d'utilisations en uml"></a></p>
+
+        <h3 id="12-modèle-conceptuel-de-données">1.2 Modèle conceptuel de données</h3>
+        <p><a href="https://olivier-mj.github.io/content/MCD.png" data-featherlight="image"><img src="https://olivier-mj.github.io/content/MCD.png" alt="Modèle conceptuel de données"></a></p>
+
+        <hr>
+
+        <h2 id="2-architecture-applicative">2 Architecture Applicative</h2>
+
+        <h3 id="21-environement-de-production">2.1 Environement de production</h3>
+
+        <p>La base de donnée est hébergée sur un S.G.B.D.R. MySQL. Le site Internet est hébergé sur un serveur Web Apache. Le
+            client lourd est une application Java pour Windows.</p>
+
+        <h3 id="22-environement-de-développement">2.2 Environement de développement</h3>
+
+        <p>Développement web avec la plateforme WAMP, avec l’IDE PhpStorm, Atom, Notepad ou Microsoft Visual Studio Code. Développement
+            en Java sous l’IDE NetBeans. Modélisation UML avec BOUML. Modélisation MERISE avec Jmerise. Logiciel de gestion
+            de version GitHub.</p>
+
+        <hr>
+
+        <h2 id="3-missions-envisageables">3 Missions Envisageables</h2>
+
+        <h3 id="31-client-léger-site-web">3.1 Client léger (site web)</h3>
+
+        <h4 id="311-mission-1">3.1.1 Mission 1</h4>
+
+        <p>Le stagiaire saisi les informations de son entreprise d’accueil, qui seront enregistrées dans la base de données.</p>
+
+        <h4 id="312-mission-2">3.1.2 Mission 2</h4>
+
+        <p>Le stagiaire modifie ses informations personnelles, les modifications seront enregistrées dans la base de données.</p>
+
+        <h4 id="313-mission-3">3.1.3 Mission 3</h4>
+        <p>Le stagiaire ajoute et /ou modifie les périodes de stage, les informations seront enregistrées dans la base de données.</p>
+
+        <h4 id="314-mission-4">3.1.4 Mission 4</h4>
+
+        <p>Le stagiaire crée une période de stage, qui sera enregistrée dans la base de données.</p>
+
+        <h3 id="32-client-lourd-java">3.2 Client Lourd (JAVA)</h3>
+
+        <h4 id="321-mission-1">3.2.1 Mission 1</h4>
+
+        <p>Ajouter, modifier et supprimer dans la base de données les données de la table entreprises.</p>
+
+        <h4 id="322-mission-2">3.2.2 Mission 2</h4>
+
+        <p>Ajouter, modifier et supprimer dans la base de données les données de la table stagiaires.</p>
+
+        <h4 id="323-mission-3">3.2.3 Mission 3</h4>
+
+        <p>Ajouter, modifier et supprimer dans la base de données les données de la table formateur.</p>
+
+        <h4 id="324-mission-4">3.2.4 Mission 4</h4>
+
+        <p>Ajouter, modifier et supprimer dans la base de données les données de la table période.</p>
+
+
+    </div>
+    <script src="public/js/sommaire.js"></script>
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</body>
+
+</html>
