@@ -16,9 +16,7 @@
         return true;
     };
 
-if (condition) {
-    
-}
+
 
     document.querySelector('.share_twitter').addEventListener('click', function(e){
         e.preventDefault();
