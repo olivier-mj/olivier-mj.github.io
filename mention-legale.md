@@ -2,7 +2,7 @@
 layout: default
 title: Mention légale
 ---
-# {{ page.tile }}
+# Mention légale
 
 <h2>Informations légales</h2>
 <h3>1. Présentation du site.</h3>
