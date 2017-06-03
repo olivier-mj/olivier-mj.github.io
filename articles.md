@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+blog: true
 permalink: "/blog/"
 paginate: 3
 paginate_path: "/blog/page:num/"
