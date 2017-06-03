@@ -285,3 +285,8 @@
     font-size: 1.46154em;
     padding: .7em;
 }
+div#toc {
+    padding: 10px;
+    border: 1px solid #aaa;
+    display: inline-block !important;
+}
