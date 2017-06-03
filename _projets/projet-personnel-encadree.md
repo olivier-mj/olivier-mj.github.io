@@ -8,7 +8,7 @@ published: true
 
 ## Contexte général
 
-Chaque année, le **GRETA Est Bretagne**, forme de nombreux adultes, par le biais de la formation continue. Dans le vocabulaire de la formation continue, les apprenants sont appelés stagiaires. Ceux-ci sont généralement amenés à effectuer un ou plusieurs stages entrepris, administrations et organisations, durant leur période de formation.
+Chaque année, un centre de formation, forme de nombreux adultes, par le biais de la formation continue. Dans le vocabulaire de la formation continue, les apprenants sont appelés stagiaires. Ceux-ci sont généralement amenés à effectuer un ou plusieurs stages entrepris, administrations et organisations, durant leur période de formation.
 
 Ces stages doivent faire l'objet de visites en situation, par des formateurs GRETA. Pour l'organisation des plannings de visites, les formateurs doivent rechercher les coordonnées des entreprises, administrations et organisations, dans les conventions de stage.
 
@@ -16,7 +16,7 @@ Chaque visite doit être consigné dans un rapport de visite, rempli en partie p
 
 La gestion de tous ces nombreux documents papiers est fastidieuse : archivage et accès à ces documents, ainsi qu'aux informations qu'ils contiennent.
 
-Pour faciliter l'organisation des plannings de visite et la saisie des rapports de visite, le **GRETA Est Bretagne**  envisage de l'informatiser la gestion des stages, en stockant dans une base de données, les informations sur ceux-ci, et les coordonnées des entreprises, administrations et organisations.
+Pour faciliter l'organisation des plannings de visite et la saisie des rapports de visite, le centre de formation  envisage de l'informatiser la gestion des stages, en stockant dans une base de données, les informations sur ceux-ci, et les coordonnées des entreprises, administrations et organisations.
 
 Ce système devra permettre de :
 
@@ -144,7 +144,3 @@ Ajouter, modifier et supprimer dans la base de données les données de la table
 #### 3.2.4	Mission 4
 
 Ajouter, modifier et supprimer dans la base de données les données de la table période.
-
-
-
-
