@@ -41,7 +41,7 @@ pagination:
           </span>
     
 
-    {{ post.content | strip_html | truncatewords: 50 | '<a href=' post.url '> Lire la suite </a>' }} 
+    {{ post.content | strip_html | truncatewords: 50 }}<br><a href="{{ post.url}}">Lire la suite</a> 
   </div>
   {% endfor %}
 </div>

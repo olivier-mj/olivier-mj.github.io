@@ -42,3 +42,4 @@ node_modules
 /CNAME
 /_images
 /Gemfile.lock
+/public
