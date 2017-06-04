@@ -15,4 +15,4 @@ port:    4000
 host:    192.168.1.82
 # Livereload config
 livereload: true     # You no longer need to include --livereload
-reload_port: 5678    # If you don't want to use the default port
+reload_port: 35729    # If you don't want to use the default port
